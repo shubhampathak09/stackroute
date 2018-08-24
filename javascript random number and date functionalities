@@ -1,0 +1,16 @@
+ var r=Math.floor((Math.random()*6))+1;
+ document.write(r);
+ var a="shuhbam Pathak";
+ document.write("<br>");
+ var b=a.search("a");
+ document.write(b);
+ // date command
+ document.write("<br>");
+ var date=new Date();
+ document.write(date);
+ document.write("<br>");
+ var getYear=date.getFullYear();
+ var getTime=date.getTimezoneOffset();
+ document.write(getYear);
+ document.write("<br>");
+ document.write(getTime);
