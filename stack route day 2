@@ -1,0 +1,83 @@
+// basics of javascript
+// java script variables,conditional statements,operators,precedences,switch statements,loops(while,do/while,for),Functions
+
+//alert("hey this my new first script");
+var myName="shubham Pathak";
+/*var a=1;
+// var 1b=2;
+var a=30,b=20,c;
+if(a<b)
+{
+    var result=a+b;
+    document.write("the result of a+b is ",result);
+}
+else{
+    var result=100;
+    document.write("the result is ",result);
+} */
+/*var list=10+10*20;
+document.write(list);
+//alert("this is strange")
+var a=5;
+alert(++a);
+*/
+var a=10,b=20;
+//var c="a is less than or equal to b";
+var c=(a>b)?alert("true"):alert("false");
+/*if(a<=b)
+{
+alert(c);
+}
+else
+{
+    alert("a is not less than b");
+}*/
+// 5.switch statements
+var fruit="orange";
+switch(fruit)
+{
+    case "apple":
+    document.write("apple is 2$");
+    break;
+    case "banana":
+    document.write("banana is 4$");
+    break;
+    case "mango":
+    document.write("mango is 5$");
+    break;
+    default:
+    document.write("fruit is not available");
+}
+document.write("<br>");
+var count=0;
+
+while(count<10)
+{
+    document.write("warframe<br/>");
+   // document.write("\n");
+    count++;
+}
+/*do{
+    docuemnt.write("this is do while loop");
+    
+}while(count<5);
+*/
+do{
+    document.write("i am the king");
+    count++;
+
+}while(count<5);
+// for loop
+document.write("<br>");
+for(var count=0;count<10;count++)
+{
+    document.write(count +" this is for loop example<br/>");
+}
+function  calArea(w,h)
+ {
+    var area=w*h;
+    document.write("<br/>the area is..",area);
+ }
+ 
+ calArea(3,4);
+ 
